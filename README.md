@@ -1,10 +1,37 @@
 # Practicas RxJs 📚
-## Training 🏋
+## Training 
 
-#### Introducción 🧐
-El objetivo del presente repositorio es el de aplicar
-los conocimientos adquiridos en el curso de RxJs.
+#### Ejercicio - 4 🏋
+Dado el siguiente código de debe realizar una cuenta regresiva comenzando desde 7
 
-Por lo que se tendrá una rama por ejercicio, 
-teniendo el enunciado del ejercicio, dentro del README.md
-  
+#### Código 👨‍💻
+
+```js
+/**
+* Salida esperada 
+* 7
+* 6
+* 5
+* 4
+* 3
+* 2
+* 1
+* 0 
+*/
+
+(() =>{
+
+    const inicio = 7;
+    const countdown$ = interval(700).pipe(
+        // Usar los operadores necesarios
+        // para realizar la cuenta regresiva
+    );
+    
+
+    // No tocar esta línea ==================
+    countdown$.subscribe( console.log ); // =
+    // ======================================
+
+
+})();
+```
