@@ -1,4 +1,4 @@
-import {of} from "rxjs";
+import {from} from "rxjs";
 import {map} from "rxjs/operators";
 
 
@@ -12,9 +12,10 @@ import {map} from "rxjs/operators";
         htmlContentDiv.appendChild(htmlH1Element);
     }
 
+    const nombres = ['batman', 'joker', 'doble cara', 'pingüino', 'hiedra venenosa'];
     const capitalizar = (nombre: string) => nombre.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
 
-    of('batman', 'joker', 'doble cara', 'pingüino', 'hiedra venenosa')
+    from(nombres)
         .pipe(
             map(capitalizar))
         .subscribe(createH1Element)
