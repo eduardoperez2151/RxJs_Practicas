@@ -1,10 +1,23 @@
 # Practicas RxJs 📚
-## Training 🏋
+## Training 
 
-#### Introducción 🧐
-El objetivo del presente repositorio es el de aplicar
-los conocimientos adquiridos en el curso de RxJs.
+#### Ejercicio - 2 🏋
+Dado el siguiente código de debe realizar la suma del array
 
-Por lo que se tendrá una rama por ejercicio, 
-teniendo el enunciado del ejercicio, dentro del README.md
-  
+**Notas** 🧐: 
+- `isNan()` es una función de JavaScript para determinar si es número.
+- Usar `filter<any>(...)` para no tener problemas de tipado.
+#### Código 👨‍💻
+
+```js
+/**
+ * Salida esperada:
+ * 32
+ */
+(() =>{
+  const datos = [1, 2, 'foo', 3, 5, 6, 'bar', 7, 8];
+  from(datos).pipe(
+    //...
+  ).subscribe( console.log )
+})();
+```
