@@ -2,7 +2,7 @@
 
 Para este ejercicio se espera que se pueda renderizar el footer de belcorp y que quede de la siguiente manera:
 
-
+![](https://github.com/eduardoperez2151/RxJs_Practicas/blob/Ejercicio7/Darkvader/belcorpfooter.png)
 
 Para realizar el ejercicio haremos lo siguiente:
 
