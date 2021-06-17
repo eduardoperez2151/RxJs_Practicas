@@ -1,0 +1,199 @@
+{
+    "footer": [
+    {
+        "id": 1,
+        "name": "Componente de navegación del pie",
+        "socialNetworksTitle": "Mantente conectado",
+        "CMSFooterImageTitleComponents": "PaymentFooterImageTitleComponent DeliveryFooterImageTitleComponent QualityFooterImageTitleComponent",
+        "LegalLinks":"TermsOfUseLink PrivacyPoliciesLink TermsAndConditionsLink",
+        "HelpLinks":"FrequentQuestionsLink ReturnExchangesLink SeeCatalogLink ComplaintsBookLink",
+        "socialImageLinks": "FacebookLogoLinkComponent TwitterLogoLinkComponent InstagramLogoLinkComponent YoutubeLogoLinkComponent",
+        "OurBrandsLinks": "EsikaLink LBelLink CyzoneLink",
+        "paymentMethodsImage": "https://cdn1-prd.beautymovers.com/images/Footer/footer_mp_pe2.png",
+        "paymentMethodsTitle": "Operamos con:",
+        "notice": "2017 Belcorp",
+        "ContactLinks": "WantSellLink WriteUsLink"
+    }
+    ],
+    "CMSFooterImageTitleComponents": [
+    {
+        "id": "PaymentFooterImageTitleComponent",
+        "title": "PAGOS 100% SEGUROS",
+        "image": {
+            "code": "footer_icon_secure_payment.svg", 
+            "mime": "image/svg+xml", 
+            "url": "assets/imgs/logo-compra-segura.svg"
+        }
+    },
+    {
+        "id": "DeliveryFooterImageTitleComponent",
+        "title": "ENTREGAS A TODO EL PAÍS",
+        "image": {
+            "code": "footer_icon_delivery.svg", 
+            "mime": "image/svg+xml", 
+            "url": "assets/imgs/logo-entregas.svg"
+        }
+    },
+    {
+        "id": "QualityFooterImageTitleComponent",
+        "title": "PRODUCTOS DE CALIDAD",
+        "image": {
+            "code": "footer_icon_quality.svg", 
+            "mime": "image/svg+xml", 
+            "url": "assets/imgs/logo-productos-calidad.svg"
+        }
+    }
+    ],
+    "socialImageLinks": [
+        {
+            "id": "FacebookLogoLinkComponent",
+            "url": "https://www.facebook.com/esika.belcorp",
+            "imageComponentHover": {
+                "media":{
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-facebook-hover.svg"
+                }
+            },
+            "imageComponent": {
+                "media" : {
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-facebook.svg"
+                }
+            }
+        },
+        {
+            "id": "TwitterLogoLinkComponent",
+            "url": "https://twitter.com/EsikaBelcorp",
+            "imageComponentHover": {
+                "media":{
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-twitter-hover.svg"
+                }
+            },
+            "imageComponent": {
+                "media" : {
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-twitter.svg"
+                }
+            }
+        },
+        {
+            "id": "InstagramLogoLinkComponent",
+            "url": "http://instagram.com/esikabelcorp",
+            "imageComponentHover": {
+                "media":{
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-instagram-hover.svg"
+                }
+            },
+            "imageComponent": {
+                "media" : {
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-instagram.svg"
+                }
+            }
+        },
+        {
+            "id": "YoutubeLogoLinkComponent",
+            "url": "https://www.youtube.com/user/EsikaVideos?sub_confirmation=1",
+            "imageComponentHover": {
+                "media":{
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-youtube-hover.svg"
+                }
+            },
+            "imageComponent": {
+                "media" : {
+                    "mime":"image/svg+xml",
+                    "url":"assets/imgs/logo-youtube.svg"
+                }
+            }
+        }
+    ],
+    "linkOptions": [
+        {
+            "id": "EsikaLink",
+            "linkName": "Ésika",
+            "url": "https://lcl-esika.tiendabelcorp.com/pe/",
+            "title": "OurBrandsLinks",
+            "titleES": "NUESTRAS MARCAS"
+        },
+        {
+            "id": "LBelLink",
+            "linkName": "L'Bel",
+            "url": "https://lcl-lbel.tiendabelcorp.com/pe/",
+            "title": "OurBrandsLinks",
+            "titleES": "NUESTRAS MARCAS"
+        },
+        {
+            "id": "CyzoneLink",
+            "linkName": "Cyzone",
+            "url": "https://lcl-cyzone.tiendabelcorp.com/pe/c/cyzone",
+            "title": "OurBrandsLinks",
+            "titleES": "NUESTRAS MARCAS"
+        },
+        {
+            "id": "FrequentQuestionsLink",
+            "linkName": "PREGUNTAS FRECUENTES",
+            "url": "https://cdn1-prd.beautymovers.com/Docs/Ayuda/PreguntasFrecuentes.pdf",
+            "title": "HelpLinks",
+            "titleES": "CATÁLOGO"
+        },
+        {
+            "id": "ReturnExchangesLink",
+            "linkName": "CAMBIOS Y DEVOLUCIONES",
+            "url": "https://cdn1-prd.beautymovers.com/Docs/Ayuda/CambiosDevoluciones.pdf",
+            "title": "HelpLinks",
+            "titleES": "CATÁLOGO"
+        },
+        {
+            "id": "SeeCatalogLink",
+            "linkName": "VER CATÁLOGO",
+            "url": "https://www.esika.com/pe/catalogo-virtual/",
+            "title": "HelpLinks",
+            "titleES": "CATÁLOGO"
+        },
+        {
+            "id": "ComplaintsBookLink",
+            "linkName": "LIBRO DE RECLAMACIONES",
+            "url": "http://librodereclamaciones.belcorp.biz/cetco/LibroReclamaciones2.asp",
+            "title": "HelpLinks",
+            "titleES": "CATÁLOGO"
+        },
+        {
+            "id": "TermsOfUseLink",
+            "linkName": "CONDICIONES DE USO",
+            "url": "https://cdn1-prd.beautymovers.com/Docs/Legal/CondicionesUso.pdf",
+            "title": "LegalLinks",
+            "titleES": "LEGAL"
+        },
+        {
+            "id": "PrivacyPoliciesLink",
+            "linkName": "POLÍTICA DE PRIVACIDAD",
+            "url": "https://cdn1-prd.beautymovers.com/Docs/Legal/PoliticaPrivacidad.pdf",
+            "title": "LegalLinks",
+            "titleES": "LEGAL"
+        },
+        {
+            "id": "TermsAndConditionsLink",
+            "linkName": "TÉRMINOS Y CONDICIONES",
+            "url": "https://cdn1-prd.beautymovers.com/Docs/Legal/TerminosCondiciones.pdf",
+            "title": "LegalLinks",
+            "titleES": "LEGAL"
+        },
+        {
+            "id": "WantSellLink",
+            "linkName": "QUIERO VENDER",
+            "url": "https://esika.com/want-to-sell",
+            "title": "ContactLinks",
+            "titleES": "CONTÁCTENOS"
+        },
+        {
+            "id": "WriteUsLink",
+            "linkName": "ESCRÍBENOS",
+            "url": "mailto:contactanosPE@belcorp.biz",
+            "title": "ContactLinks",
+            "titleES": "CONTÁCTENOS"
+        }
+    ]
+}
